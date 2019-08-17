@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test Addition</string>
+    <string name="Reussi">Bienvenu au Test Addition</string>
+    <string name="Erreur">Veillez remplir le champ svp</string>
+</resources>
