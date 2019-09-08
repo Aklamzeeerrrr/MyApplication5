@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editSecondNombre" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroupOperateur"
         android:layout_width="wrap_content"
         android:layout_height="166dp"
         android:layout_alignParentBottom="true"
@@ -99,7 +99,6 @@
             android:id="@+id/radio_addition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="calculerNombre"
             android:text="Addition"
             android:checked="true"/>
 
@@ -107,21 +106,18 @@
             android:id="@+id/radio_soustraction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="calculerNombre"
             android:text="Soustraction" />
 
         <RadioButton
             android:id="@+id/radio_multiplication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="calculerNombre"
             android:text="Multiplication" />
 
         <RadioButton
             android:id="@+id/radio_division"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="calculerNombre"
             android:text="Division" />
 
     </RadioGroup>
